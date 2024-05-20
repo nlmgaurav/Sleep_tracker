@@ -21,3 +21,41 @@
   "timestamp": "2023-05-19T00:00:00.000Z"
 }
 ```
+
+### Response
+
+```json
+{
+  "_id": "60a773b8f58b0c44d4e5d85e",
+  "userId": "user123",
+  "hours": 7,
+  "timestamp": "2023-05-19T00:00:00.000Z",
+  "createdAt": "2023-05-19T00:00:00.000Z",
+  "updatedAt": "2023-05-19T00:00:00.000Z",
+  "__v": 0
+}
+```
+
+### GET /sleep/:userId
+
+-Retrieves all sleep records for the given user ID.
+
+```json
+[
+  {
+    "_id": "60a773b8f58b0c44d4e5d85e",
+    "userId": "user123",
+    "hours": 7,
+    "timestamp": "2023-05-19T00:00:00.000Z",
+    "createdAt": "2023-05-19T00:00:00.000Z",
+    "updatedAt": "2023-05-19T00:00:00.000Z",
+    "__v": 0
+  }
+]
+```
+
+### Starting the Server
+
+-Run the following command to start the server:
+
+### node server.js
